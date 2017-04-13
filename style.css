@@ -1,0 +1,56 @@
+body {
+  background-color: #424242;
+
+  /*direction: rtl; */
+  /*flex-items are arranged right to left*/
+}
+
+.flex-container {
+  background-color: #2affc4;
+  width: 80%;
+  height: 1000px;
+  margin: 0 auto;
+  padding: 10px 45px;
+  display: flex;
+  display: -webkit-flex;
+  flex-direction: column;
+
+  /*justify-content: center;*/
+  /*if flex-direction is row, items are aligned center, left (flex-start) or right (flex-end)*/
+  /*also space-between, space-around  */
+
+  /*align-items: stretch;*/
+  /*stretch is default; align-items is same as justify-content except vertical (or horiz depending on row or column)*/
+}
+
+.flex-item {
+  border-bottom: 2px solid #fff;
+}
+.p1 {
+  font-family: 'Bungee Hairline', sans-serif;
+  font-size: 40px;
+  font-weight: bold;
+}
+.p2 {
+  font-family: 'Comfortaa', sans-serif;
+  font-size: 40px;
+  font-weight: bold;
+}
+.p3 {
+  font-family: 'Poiret One', sans-serif;
+  font-size: 40px;
+  font-weight: bold;
+}
+.p4 {
+  font-family: 'Shrikhand', sans-serif;
+  font-size: 40px;
+}
+.p5 {
+  font-family: 'Monoton', sans-serif;
+  font-size: 40px;
+}
+.p6 {
+  font-family: 'Nixie One', sans-serif;
+  font-size: 40px;
+  font-weight: bold;
+}
