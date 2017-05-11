@@ -1,35 +1,315 @@
 body {
   background-color: #424242;
+  padding: 40px;
 
   /*direction: rtl; */
   /*flex-items are arranged right to left*/
 }
+.flex-item {
 
-.flex-container {
+}
+p {
+  margin: 1px;
+  padding: none;
+}
+.container {
+  margin: 0 auto;
+  width: 700px;
+  height: 400px;
+  display: flex;
+  display: -webkit-flex;
+  flex-direction: column;
+  -webkit-flex-direction: column;
+  justify-content: center;
+  -webkit-justify-content: center;
+  text-align: center;
+}
+
+/*  QUOTE 1  */
+.quote1 {
+  background-color: #fff;
+  width: 900px;
+  margin: 0 auto;
+  margin-bottom: 80px;
+  padding: 70px 45px;
+  text-align: center;
+  height: 400px;
+}
+.q1 {
+  font-family: 'Lato', sans-serif;
+  font-weight: 100;
+  font-style: italic;
+  font-size: 90px;
+  letter-spacing: 20px;
+  text-transform: uppercase;
+  margin: 0 0 20px 0;
+}
+.q1-2 {
+  font-family: 'Playfair Display SC', serif;
+  font-size: 40px;
+  font-weight: 400;
+  border-bottom: 2px solid #000;
+  width: 500px;
+  line-height: .2;
+  margin: 0 auto;
+}
+.q1-2a {
+  background-color: #fff;
+  padding: 0 20px;
+}
+.q1-3 {
+  font-family: 'Playfair Display SC', serif;
+  font-style: italic;
+  font-size: 76px;
+  margin: 10px 0 0 0;
+  text-transform: lowercase;
+}
+.q1-4 {
+  font-family: 'Lato', sans-serif;
+  font-weight: 300;
+  text-transform: uppercase;
+  font-size: 20px;
+  text-align: right;
+  padding-right: 7%;
+}
+
+
+/*  QUOTE 2  */
+.quote2 {
+  background-color: #ffefbe;
+  width: 900px;
+  margin: 0 auto;
+  margin-bottom: 80px;
+  padding: 70px 45px;
+  text-align: center;
+  height: 400px;
+}
+.q2 {
+  /*and once you are*/
+  font-family: 'Lato', sans-serif;
+  font-weight: 300;
+  font-size: 40px;
+  letter-spacing: 5px;
+  text-transform: uppercase;
+  margin: none;
+}
+.q2-2 {
+  /*awake*/
+  font-family: 'Playfair Display SC', serif;
+  letter-spacing: 10px;
+  font-size: 124px;
+  font-weight: 700;
+  text-transform: uppercase;
+  margin: none;
+  line-height: .9;
+}
+.q2-2a {
+  /*awake bg*/
+  font-family: 'Playfair Display SC', serif;
+  letter-spacing: 10px;
+  font-size: 220px;
+  font-weight: 700;
+  text-transform: uppercase;
+  font-style: italic;
+  color: rgba(0, 0, 0, 0.04);
+  margin: none;
+  line-height: .1;
+  position: relative;
+  top: 20%;
+  left: -8%;
+}
+.q2-3 {
+  /*you shall remain awake*/
+  font-family: 'Lato', sans-serif;
+  font-weight: 300;
+  font-size: 31px;
+  letter-spacing: 3px;
+  margin: 10px 0 0 0;
+  text-transform: uppercase;
+}
+.q2-4 {
+  /*eternally*/
+  font-family: 'Playfair Display', serif;
+  font-weight: 700;
+  text-transform: lowercase;
+  font-style: italic;
+  letter-spacing: 2px;
+  font-size: 80px;
+  line-height: 1;
+  margin: 0 0 26px 0;
+}
+.q2-5 {
+  font-family: 'Lato', sans-serif;
+  font-weight: 300;
+  text-transform: uppercase;
+  font-size: 20px;
+  text-align: right;
+  padding-right: 17%;
+}
+
+
+/*  QUOTE 3  */
+.quote3 {
+  background-color: #fff;
+  width: 900px;
+  margin: 0 auto;
+  margin-bottom: 80px;
+  padding: 70px 45px;
+  text-align: center;
+  height: 400px;
+}
+/*the earth has*/
+.q3 {
+  font-family: 'Homemade Apple', cursive;
+  font-weight: 100;
+  font-style: italic;
+  font-size: 50px;
+  margin: 0 0 10px 0;
+}
+/*music*/
+.q3-2 {
+  font-family: 'Fredericka the Great', serif;
+  font-size: 90px;
+  text-transform: uppercase;
+  font-weight: 400;
+  letter-spacing: 10px;
+  line-height: .2;
+  margin: 0 auto;
+}
+/*for those who listen*/
+.q3-3 {
+  font-family: 'Homemade Apple', cursive;
+  font-size: 40px;
+  margin: 30px 0 0 0;
+  text-transform: lowercase;
+}
+.q3-4 {
+  font-family: 'Lato', sans-serif;
+  font-weight: 300;
+  text-transform: uppercase;
+  font-size: 20px;
+  text-align: right;
+  padding-right: 20%;
+}
+
+
+/*  QUOTE 4  */
+.quote4 {
+  background-color: #fff;
+  width: 900px;
+  margin: 0 auto;
+  margin-bottom: 80px;
+  padding: 70px 45px;
+  text-align: center;
+  height: 400px;
+}
+/*Even the darkest night will end*/
+.q4 {
+  font-family: 'Homemade Apple', cursive;
+  font-weight: 100;
+  font-style: italic;
+  font-size: 50px;
+  margin: 0 0 10px 0;
+}
+/*and the sun will rise*/
+.q4-2 {
+  font-family: 'Fredericka the Great', serif;
+  font-size: 90px;
+  text-transform: uppercase;
+  font-weight: 400;
+  letter-spacing: 10px;
+  line-height: .2;
+  margin: 0 auto;
+}
+.q4-3 {
+  font-family: 'Lato', sans-serif;
+  font-weight: 300;
+  text-transform: uppercase;
+  font-size: 20px;
+  text-align: right;
+  padding-right: 20%;
+}
+
+
+/*  STYLES  */
+.styles {
+  background-color: #0e2f44;
+  width: 900px;
+  margin: 0 auto;
+  margin-bottom: 80px;
+  padding: 70px 45px;
+  text-align: center;
+  height: 400px;
+}
+/*oblivion*/
+.s1 {
+  color: #fff;
+  font-family: Shrikhand;
+  font-size: 90px;
+  font-weight: bold;
+  text-shadow:
+    -3px -3px 0 #0e2f44,
+    3px -3px 0 #0e2f44,
+    -3px 3px 0 #0e2f44,
+    3px 3px 0 #0e2f44,
+    4px 4px 0 #fff,
+    5px 5px 0 #fff,
+    6px 6px 0 #fff,
+    7px 7px 0 #fff;
+  letter-spacing: .1em;
+  margin:0;
+  text-align: center;
+}
+/*incandescence*/
+.s2 {
+  color: #fff;
+  font-family: Lato;
+  font-size: 90px;
+  font-weight: 300;
+  text-shadow: 0 0 10px #fff,
+           0 0 20px  #fff,
+           0 0 30px  #fff,
+           0 0 40px  #228DFF,
+           0 0 70px  #228DFF,
+           0 0 80px  #228DFF,
+           0 0 100px #228DFF,
+           0 0 150px #228DFF;
+  margin:0;
+  text-align: center;
+}
+
+.q4 {
+  font-family: 'Homemade Apple', cursive;
+  font-weight: 100;
+  font-style: italic;
+  font-size: 50px;
+  margin: 0 0 10px 0;
+}
+
+
+
+
+
+.flex-container2 {
   background-color: #2affc4;
   width: 80%;
-  height: 1000px;
+  margin-bottom: 400px;
   margin: 0 auto;
   padding: 10px 45px;
   display: flex;
   display: -webkit-flex;
   flex-direction: column;
 
-  /*justify-content: center;*/
+  /*justify-content: flex-start;*/
   /*if flex-direction is row, items are aligned center, left (flex-start) or right (flex-end)*/
   /*also space-between, space-around  */
 
   /*align-items: stretch;*/
   /*stretch is default; align-items is same as justify-content except vertical (or horiz depending on row or column)*/
-}
 
-.flex-item {
-  border-bottom: 2px solid #fff;
-}
-.p1 {
-  font-family: 'Bungee Hairline', sans-serif;
-  font-size: 40px;
-  font-weight: bold;
+  /*flex-wrap: nowrap*/
+  /*if there isn't enough room for items on a line, this specifies whether or not they should wrap to the next line*/
+  /*wrap-reverse means the last item will be on top (wrapped in reverse)*/
 }
 .p2 {
   font-family: 'Comfortaa', sans-serif;
